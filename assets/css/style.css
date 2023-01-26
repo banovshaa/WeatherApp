@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  color: #fff;
+  font-weight: 100;
+  background: url(/assets/images/pexels-pixabay-209831.jpg) center/cover;
+}
+
+div, p {
+  margin: 0;
+}
+
+.all .left {
+  padding: 3rem;
+  width: 60%;
+}
+.all .left .time {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+.all .left .time #am-pm {
+  font-size: 1.25rem;
+}
+.all .left .day {
+  font-size: 1.5rem;
+}
+.all .left .w-degree {
+  margin: 5rem 0;
+}
+.all .left .w-degree .today {
+  font-weight: 300;
+  font-size: 4rem;
+}
+.all .left .w-degree .detail p {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+.all .left .w-values {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: rgba(14, 47, 60, 0.5);
+  padding: 20px;
+  margin: 2rem 0;
+}
+.all .left .w-values p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.all .left .region {
+  font-size: 1.5rem;
+  color: #0B2731;
+  font-weight: 300;
+}
+.all .left .con {
+  font-size: 0.75rem;
+  color: #0B2731;
+  font-weight: 600;
+}
+.all .right {
+  background-color: rgba(14, 47, 60, 0.5);
+  height: 100vh;
+  padding: 3rem;
+}
+.all .right .search input {
+  width: 100%;
+  padding: 0 20px 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+.all .right .search input::-moz-placeholder {
+  color: #fff;
+}
+.all .right .search input:-ms-input-placeholder {
+  color: #fff;
+}
+.all .right .search input::placeholder {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .left {
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+  .left .w-degree {
+    margin: 1.5rem 0 !important;
+  }
+  .right {
+    padding: 1rem !important;
+  }
+}
+@media (max-width: 576px) {
+  .right {
+    height: auto !important;
+  }
+}/*# sourceMappingURL=style.css.map */

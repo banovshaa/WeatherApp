@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="all">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="left">
+                        <div class="container">
+                            <p class="region"><span id="country">Asia</span> / <span id="city">Kolkota</span></p>
+                            <p class="con"><span id="lat">12345</span> , <span id="lon">34567</span></p>
+                            <div class="time d-flex justify-content-between align-items-baseline">
+                                
+                            </div>
+                            <p class="day"><span id="thisDay">Monday</span>, <span id="thisDayNum">24</span> <span id="thisMonth">May</span></p>
+                            <div class="w-degree d-flex justify-content-between align-items-center">
+                                <p class="today"><span>17</span>&deg;C</p>
+                                <div class="detail">
+                                    <span><i class="fa-solid fa-cloud"></i></span>
+                                    <p>Partly cloudy</p>
+                                </div>
+                            </div>
+                            <div class="w-values">
+                                <div class="w-value d-flex align-items-center justify-content-between">
+                                    <p class="me-3">Humidity</p>
+                                    <p><span id="humidity">58</span>%</p>
+                                </div>
+                                <div class="w-value d-flex align-items-center justify-content-between">
+                                    <p>Pressure</p>
+                                    <p><span id="pressure">1007</span> hPa</p>
+                                </div> 
+                                <div class="w-value d-flex align-items-center justify-content-between">
+                                    <p>Wind Speed</p>
+                                    <p><span id="wind">3.87</span>%  m/s</p>
+                                </div>
+                                <div class="w-value d-flex align-items-center justify-content-between">
+                                    <p>Sunrise</p>
+                                    <p id="rise">06:01 am</p>
+                                </div>
+                                <div class="w-value d-flex align-items-center justify-content-between">
+                                    <p>Sunset</p>
+                                    <p id="set">18:42 pm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 text-end">
+                    <div class="right">
+                        <div class="container">
+                            <div class="search">
+                                <input type="text" placeholder="Search Location..">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-days">
+
+            </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
